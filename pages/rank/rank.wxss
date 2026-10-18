@@ -1,0 +1,38 @@
+/* pages/rank/rank.wxss */
+.my-rank {
+  background: linear-gradient(150deg, rgba(245, 165, 36, .14), #171d2a 42%);
+  border-color: rgba(245, 165, 36, .35);
+}
+
+.my-rank-num {
+  font-size: 44rpx;
+  font-weight: 800;
+  color: #f5a524;
+  line-height: 1.1;
+}
+
+.my-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12rpx;
+  margin-top: 24rpx;
+  padding-top: 24rpx;
+  border-top: 1rpx solid #2a3346;
+  text-align: center;
+}
+
+.my-stat {
+  min-width: 0;
+}
+
+.my-stat-num {
+  font-size: 32rpx;
+  font-weight: 800;
+  color: #eef1f8;
+}
+
+.my-stat-label {
+  font-size: 20rpx;
+  color: #9aa3b8;
+  margin-top: 6rpx;
+}

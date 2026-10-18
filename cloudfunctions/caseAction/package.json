@@ -1,0 +1,9 @@
+{
+  "name": "caseAction",
+  "version": "1.0.0",
+  "description": "确认匹配/忽略线索/标记破案/聊天/评论等案件动作",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

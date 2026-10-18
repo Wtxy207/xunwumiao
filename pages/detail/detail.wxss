@@ -1,0 +1,64 @@
+/* pages/detail/detail.wxss */
+.hero-zoom {
+  position: absolute;
+  right: 22rpx;
+  bottom: 22rpx;
+  padding: 8rpx 18rpx;
+  border-radius: 999rpx;
+  background: rgba(10, 12, 18, .6);
+  border: 1rpx solid rgba(255, 255, 255, .16);
+  font-size: 20rpx;
+  color: #d7dce8;
+}
+
+.done-banner {
+  margin-top: 20rpx;
+  padding: 18rpx;
+  border-radius: 16rpx;
+  background: rgba(45, 212, 167, .1);
+  border: 1rpx solid rgba(45, 212, 167, .28);
+  color: #6ee7c4;
+  font-size: 25rpx;
+  text-align: center;
+}
+
+.related-card {
+  display: flex;
+  align-items: center;
+  gap: 18rpx;
+  padding: 18rpx 20rpx;
+  background: #171d2a;
+  border: 1rpx solid #2b3447;
+  border-radius: 20rpx;
+  margin-bottom: 14rpx;
+}
+
+.related-thumb {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 16rpx;
+  background: #0e1320;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44rpx;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.related-thumb image {
+  width: 100%;
+  height: 100%;
+}
+
+.safety-list {
+  font-size: 24rpx;
+  color: #aab2c5;
+  line-height: 2;
+}
+
+.share-btn {
+  flex-shrink: 0;
+  height: 88rpx;
+  border-radius: 20rpx;
+}

@@ -1,0 +1,10 @@
+/* pages/index/index.wxss */
+.fs27 { font-size: 27rpx; }
+
+.footer-tip {
+  text-align: center;
+  font-size: 21rpx;
+  color: #6f788e;
+  margin: 44rpx 0 24rpx;
+  letter-spacing: 1rpx;
+}

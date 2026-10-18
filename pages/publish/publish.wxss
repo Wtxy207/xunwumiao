@@ -1,0 +1,43 @@
+/* pages/publish/publish.wxss */
+.preview-card {
+  opacity: .92;
+  border-style: dashed;
+}
+
+.detail-bar {
+  box-shadow: 0 -8rpx 24rpx rgba(0, 0, 0, .28);
+}
+
+.upload-hint {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+  margin-top: 14rpx;
+  padding: 14rpx 18rpx;
+  border-radius: 14rpx;
+  background: rgba(245, 165, 36, .1);
+  border: 1rpx solid rgba(245, 165, 36, .32);
+}
+
+.upload-hint-icon {
+  font-size: 24rpx;
+  flex-shrink: 0;
+}
+
+.upload-hint-text {
+  flex: 1;
+  min-width: 0;
+  font-size: 22rpx;
+  line-height: 1.5;
+  color: #fbbf24;
+}
+
+.upload-hint-retry {
+  flex-shrink: 0;
+  font-size: 22rpx;
+  font-weight: 700;
+  color: #2a1a02;
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  padding: 6rpx 20rpx;
+  border-radius: 999rpx;
+}

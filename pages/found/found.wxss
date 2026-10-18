@@ -1,0 +1,4 @@
+/* pages/found/found.wxss */
+.list-fab {
+  padding-bottom: 200rpx;
+}

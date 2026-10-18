@@ -1,0 +1,4 @@
+/* pages/lost/lost.wxss */
+.list-fab {
+  padding-bottom: 200rpx;
+}
