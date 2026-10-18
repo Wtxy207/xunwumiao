@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lost/lost",
+    "pages/found/found",
+    "pages/publish/publish",
+    "pages/matches/matches",
+    "pages/chat/chat",
+    "pages/chatroom/chatroom",
+    "pages/detail/detail",
+    "pages/rank/rank"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0b0e16",
+    "navigationBarTitleText": "寻物喵",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0b0e16",
+    "backgroundColorTop": "#0b0e16",
+    "backgroundColorBottom": "#0b0e16"
+  },
+  "tabBar": {
+    "color": "#9aa3b8",
+    "selectedColor": "#f5a524",
+    "backgroundColor": "#111624",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "大厅",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/lost/lost",
+        "text": "失物",
+        "iconPath": "images/lost.png",
+        "selectedIconPath": "images/lost-active.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "招领",
+        "iconPath": "images/found.png",
+        "selectedIconPath": "images/found-active.png"
+      },
+      {
+        "pagePath": "pages/matches/matches",
+        "text": "线索",
+        "iconPath": "images/match.png",
+        "selectedIconPath": "images/match-active.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "消息",
+        "iconPath": "images/chat.png",
+        "selectedIconPath": "images/chat-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于标记物品丢失/捡到的位置"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}
